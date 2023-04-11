@@ -13,14 +13,54 @@ body, ul, li, p{
 
 a{
     text-decoration: none;
-    color: blue;
+    color: red;
 }
 
 .header{
-    background-color: violet;
+    background-color: blue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+.flex{
+    min-height: 100vh;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imagem{
+    width: 400px;
+    height: auto;
+}
+
+.item{
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.paragrafo{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    text-align: justify;
 }
