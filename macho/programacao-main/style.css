@@ -1,0 +1,70 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+
+
+.logo{
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+.header{
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+.flex{
+    min-height: 100vh;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imagem{
+    width: 850px;
+    height: auto;
+}
+
+.item{
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.paragrafo{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    text-align: justify;
+}
+.imagem{
+    width: 800px;
+    height: auto;
+}
